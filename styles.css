@@ -155,7 +155,6 @@ section img {
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-  
 }
 
 .card img {
@@ -189,9 +188,13 @@ section img {
 }
 
 .card-projetos {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-gap: 30px;
+    justify-content: center;
+    justify-items: center;
     margin-top: 70px;
+    grid-template-columns: repeat(auto-fit, minmax(335px, 1fr));
+
 }
 
 footer {
