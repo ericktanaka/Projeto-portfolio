@@ -159,6 +159,8 @@ section img {
 
 .card img {
     height: 100px;
+    max-width: 100%;
+    
 }
 
 .card h5 {
