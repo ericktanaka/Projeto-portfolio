@@ -157,10 +157,13 @@ section img {
     text-align: center;
 }
 
-.card img {
-    height: 100px;
+#god-of-war {
+    height: 80px;
     max-width: 100%;
-    
+}
+
+.card img {
+    height: 100px; 
 }
 
 .card h5 {
